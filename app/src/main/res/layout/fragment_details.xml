@@ -1,0 +1,53 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/card_transparent"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/country_name"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/country_name" />
+
+            <TextView
+                android:id="@+id/country_name_detail"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Country name" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/total_cases"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_cases" />
+
+            <TextView
+                android:id="@+id/total_cases_detail"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Cases" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,7 +12,8 @@
             android:id="@+id/action_mainListFragment_to_detailsFragment"
             app:destination="@id/detailsFragment"
             app:enterAnim="@android:anim/fade_in"
-            app:exitAnim="@android:anim/fade_out" />
+            app:exitAnim="@android:anim/fade_out"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/detailsFragment"

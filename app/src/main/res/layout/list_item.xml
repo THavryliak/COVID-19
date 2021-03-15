@@ -16,7 +16,7 @@
         <TextView
             android:id="@+id/country_name_txt"
             style="@style/country_card_text_style"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             tools:text="Country Name" />
@@ -24,7 +24,7 @@
         <TextView
             android:id="@+id/country_code_txt"
             style="@style/country_card_text_style"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             tools:text="Country Code" />

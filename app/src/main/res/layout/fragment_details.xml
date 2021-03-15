@@ -29,7 +29,7 @@
                 style="@style/table_text_style"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="Country name" />
+                tools:text="USA" />
 
         </TableRow>
 
@@ -47,7 +47,98 @@
                 style="@style/table_text_style"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="Cases" />
+                tools:text="30081657" />
         </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/new_cases"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_cases" />
+
+            <TextView
+                android:id="@+id/new_cases_detail"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="45985" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/total_deaths"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_deaths" />
+
+            <TextView
+                android:id="@+id/total_deaths_detail"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="829491" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/new_deaths"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_deaths" />
+
+            <TextView
+                android:id="@+id/new_deaths_detail"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2329" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/total_recovered"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_recovered" />
+
+            <TextView
+                android:id="@+id/total_recovered_detail"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="20764567" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/new_recovered"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_recovered" />
+
+            <TextView
+                android:id="@+id/new_recovered_detail"
+                style="@style/table_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="14203" />
+
+        </TableRow>
+
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

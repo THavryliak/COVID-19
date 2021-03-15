@@ -2,9 +2,11 @@
 <resources>
     <style name="country_card_text_style">
         <item name="android:textColor">@color/white</item>
-        <item name="android:layout_margin">@dimen/card_text_margin</item>
+        <item name="android:layout_marginTop">@dimen/card_text_margin</item>
+        <item name="android:layout_marginBottom">@dimen/card_text_margin</item>
         <item name="android:textSize">@dimen/main_text_size</item>
         <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 
     <style name="table_text_style">

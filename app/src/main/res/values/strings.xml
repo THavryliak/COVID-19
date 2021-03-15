@@ -7,5 +7,10 @@
     <string name="main_screen_title">Statistics</string>
 
     <string name="total_cases">Total cases: </string>
+    <string name="new_cases">New cases:</string>
     <string name="country_name">Country name: </string>
+    <string name="total_deaths">Total deaths:</string>
+    <string name="new_deaths">New deaths:</string>
+    <string name="total_recovered">Total recovered:</string>
+    <string name="new_recovered">New recovered:</string>
 </resources>
